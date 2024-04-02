@@ -1,0 +1,25 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+span {
+    color: darkcyan;
+}
+
+li {
+    color: red;
+}
+
+h3 {
+    color: yellowgreen;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
