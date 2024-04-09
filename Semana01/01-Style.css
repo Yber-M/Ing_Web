@@ -1,27 +1,25 @@
-    * {
-        background-color: black;
-    }
+* {
+    background-color: black;
+}
 
-    #titulos {
-        text-decoration: underline;
-        text-align: center;
-        color: red;
-    }
+h1 {
+    text-align: center;
+    color: red;
+}
 
-    span {
-        color: darkcyan;
-    }
+span {
+    color: darkcyan;
+}
 
-    li {
-        color: red;
-    }
+li {
+    color: red;
+}
 
-    #subtema {
-        color: yellowgreen;
-        text-decoration: underline;
-    }
+h3 {
+    color: yellowgreen;
+}
 
-    p {
-        color: white;
-        text-align: justify;
-    }
+p {
+    color: white;
+    text-align: justify;
+}

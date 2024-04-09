@@ -1,0 +1,38 @@
+    * {
+        background-color: black;
+        color: white;
+    }
+
+    p {
+        color: white;
+        text-align: justify;
+        font-family: mononoki;
+    }
+
+    #titulos {
+        text-align: center;
+        color: red;
+        border: 5px dashed blueviolet;
+        background-color: rgb(36, 36, 36);
+        margin: 5%;
+        padding: 2%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #subtema {
+        color: yellowgreen;
+        text-decoration: underline;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .list-orde {
+        color: seagreen;
+        font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .list-orde li::marker {
+        /* Colocar color a los números de la lista*/
+        color: red;
+        font-size: x-large;
+    }
