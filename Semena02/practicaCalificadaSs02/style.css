@@ -1,0 +1,23 @@
+body {
+    background-color: #141a18;
+}
+
+h1 {
+    color: #00FF9E;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+h2 {
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+h3 {
+    color: #609F87;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+div {
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+}
