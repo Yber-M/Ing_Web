@@ -15,7 +15,8 @@ h2 {
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 450;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+    font-size: 20px;
 }
 
 h3 {
@@ -49,10 +50,11 @@ div {
 #container-estudiantes {
     border: 2px solid #00FF9E;
     border-radius: 20px;
-    width: 35%;
+    width: 29%;
     background-color: #293431;
     padding: 2%;
-    margin: 1.5% 0% 0% 1%;
+    margin: 2% 0% 1% 1%;
+    box-shadow: 0 0 10px #0f0;
 }
 
 .marca-agua {
@@ -63,6 +65,7 @@ div {
 
 .marca-agua span {
     color: #00FF9E;
+    text-shadow: 0 0 10px #00FF9E;
 }
 
 .img-user {
@@ -113,7 +116,8 @@ div {
     width: 60%;
     background-color: #293431;
     padding: 2%;
-    margin: 1.5% 1% 0% 1%;
+    margin: 1% 0% 0% 2%;
+    box-shadow: 0 0 10px #0f0;
 }
 
 .titulo2 {
