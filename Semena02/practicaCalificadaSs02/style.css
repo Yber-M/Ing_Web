@@ -6,27 +6,169 @@ h1 {
     color: #00FF9E;
     font-family: "M PLUS 1 Code", monospace;
     text-decoration: underline;
+    text-align: center;
+    margin: -10px;
 }
 
 h2 {
     color: white;
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 450;
+    text-align: center;
+    margin: 10px;
 }
 
 h3 {
     color: #609F87;
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 350;
+    text-align: center;
+    margin: 0px;
 }
 
 h5 {
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 340;
     text-decoration: underline;
+    color: #00FF9E;
+    font-size: large;
+    margin: 0px;
 }
 
 div {
+    margin: 5px 0;
     color: white;
     font-family: "M PLUS 1 Code", monospace;
+}
+
+#container-estudiantes {
+    border: 2px solid #00FF9E;
+    border-radius: 20px;
+    width: 35%;
+    background-color: #293431;
+    padding: 2%;
+    margin: 1.5% 1% 0% 1%;
+}
+
+.img-user {
+    /* Centra horizontalmente */
+    justify-content: center;
+    /* Centra verticalmente */
+    align-items: center;
+    /* Ancho del círculo */
+    width: 160px;
+    /* Altura del círculo, debe ser igual al ancho para ser un círculo perfecto */
+    height: 160px;
+    /* Hace el círculo */
+    border-radius: 50%;
+    /* Esconde las partes de la imagen que se salen del círculo */
+    overflow: hidden;
+    /* El borde */
+    border: 4px solid #00FF9E;
+    /* Esto centrará el div si está dentro de otro contenedor */
+    margin: auto;
+}
+
+.img-user img {
+    /* Quita espacios extra */
+    display: block;
+    /* La imagen ocupará el 100% del ancho del contenedor */
+    width: 100%;
+    /* La altura será automática para mantener la proporción de la imagen */
+    height: auto;
+
+}
+
+.redes-uni {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.redes-uni img {
+    border-radius: 30%;
+    border: 3px solid #00FF9E;
+    background-color: white;
+    padding: 4px;
+}
+
+#container-horario {
+    border: 2px solid #00FF9E;
+    border-radius: 20px;
+    width: 60%;
+    background-color: #293431;
+    padding: 2%;
+    margin: 1.5% 1% 0% 1%;
+}
+
+#contenedor-padre {
+    display: flex;
+}
+
+.titulo2 {
+    padding-bottom: 20px;
+}
+
+table.table {
+    font-family: "M PLUS 1 Code", monospace;
+    width: 100%;
+    background-color: #272727;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #00FF9E;
+    border-style: solid;
+    color: #ffffff;
+    text-align: center;
+}
+
+table.table td,
+table.table th {
+    border-width: 1px;
+    border-color: #00FF9E;
+    border-style: solid;
+    padding: 5px;
+}
+
+table.table thead {
+    background-color: #73F895;
+    color: black;
+}
+
+.tbl-colum-hora {
+    background-color: #0e1312;
+}
+
+.viernes-class {
+    background-color: #136175;
+    font-size: 13px;
+}
+
+.martes-class {
+    background-color: #4018ff;
+    font-size: 13px;
+}
+
+.lunes-class1 {
+    background-color: #6d11b8;
+    font-size: 13px;
+}
+
+.lunes-class2 {
+    font-size: 13px;
+    background-color: #0c6b43;
+}
+
+.miercoles-class1 {
+    background-color: #1ba5b2;
+    font-size: 13px;
+}
+
+.miercoles-class2 {
+    font-size: 13px;
+    background-color: #670e6c;
+}
+
+.jueves-class {
+    font-size: 13px;
+    background-color: #b5b82b;
 }

@@ -12,42 +12,201 @@
 </head>
 
 <body>
-    <div id="datos-estudiantes">
-        <h1 class="titulo">Horario de Estudios</h1>
-        <h2>Datos Básicos</h2>
-        <img src="img/fotoPerfil.webp" alt="foto-usuario">
-        <div class="datos">
-            <h3>Ingeniería de Sistemas</h3>
-
-            <div class="datos-personales">
-                <h5>Datos Personales</h5>
-                <ul>
-                    <li>Alumno: Marlon Yber Quispe Olano</li>
-                    <li>Sexo: Masculino</li>
-                    <li>Matricula: Activa</li>
-                    <li>Correo Personal: ybermarlon@gmail.com</li>
-                </ul>
-
-                <h5>Datos de la carrera</h5>
-
-                <ul>
-                    <li>Código: 7002583821</li>
-                    <li>Ciclo: Sexto</li>
-                    <li>Turno: Tarde/Noche</li>
-                    <li>Correo Institucional: mquispeol@ucvvirtual.edu.pe</li>
-                </ul>
+    <div id="contenedor-padre">
+        <div id="container-estudiantes">
+            <h1 class="titulo">Estudiante</h1>
+            <h2>Datos Básicos</h2>
+            <div class="img-user">
+                <img src="img/fotoPerfil.webp" alt="foto-usuario">
             </div>
+            <div class="datos">
+                <h3>Ingeniería de Sistemas</h3>
 
-            <div class="redes-uni">
-                <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/gmail.ico" alt=""></a>
-                <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/drive.ico" alt=""></a>
-                <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/calendar.ico" alt=""></a>
+                <div class="datos-personales">
+                    <h5>Datos Personales</h5>
+                    <ul>
+                        <li>Alumno: Marlon Yber Quispe Olano</li>
+                        <li>Sexo: Masculino</li>
+                        <li>Matricula: Activa</li>
+                        <li>Correo Personal: ybermarlon@gmail.com</li>
+                    </ul>
+
+                    <h5>Datos de la carrera</h5>
+
+                    <ul>
+                        <li>Código: 7002583821</li>
+                        <li>Ciclo: Sexto</li>
+                        <li>Turno: Tarde/Noche</li>
+                        <li>Correo Institucional: mquispeol@ucvvirtual.edu.pe</li>
+                    </ul>
+                </div>
+
+                <div class="redes-uni">
+                    <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/gmail.ico" alt=""></a>
+                    <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/drive.ico" alt=""></a>
+                    <a href="mailto:mquispeol@ucvvirtual.edu.pe"><img src="img/calendar.ico" alt=""></a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="cuerpo">
 
+        <div id="container-horario">
+            <h1 class="titulo2">Horario de Clases</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tbl-colum-hora">07:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2" rowspan="2" class="viernes-class">Filosofía y Ética<br>A15-15T1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">10:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">10:20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">11:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2" class="viernes-class">Filosofía y Ética<br>A15-15T1</td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">11:20</td>
+                        <td></td>
+                        <td rowspan="2" class="martes-class">TUTORÍA VII: GESTIÓN DE RECURSOS PERSONALES
+                            <br>A2 - A2T1
+                        </td>
+                        <td></td>
+                        <td rowspan="2" class="jueves-class">TUTORÍA VI: LIDERAZGO TRANSFORMACIONAL
+                            <br>A14 - A14T1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">12:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">13:10</td>
+                        <td class="lunes-class1" rowspan="2">GERENCIA DE LA TECNOLOGÍA DE LA INFORMACIÓN
+                            <br>B1 - B1T1
+                        </td>
+                        <td></td>
+                        <td rowspan="2" class="miercoles-class1"> FUNDAMENTOS DE MODELADO Y ANIMACIÓN
+                            <br>B1 - B1T1
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">16:10</td>
+                        <td rowspan="2" class="martes-class">TUTORÍA VII: GESTIÓN DE RECURSOS PERSONALES
+                            <br>A2 - A2T1
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">16:20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">18:00</td>
+                        <td class="lunes-class1" rowspan="2">GERENCIA DE LA TECNOLOGÍA DE LA INFORMACIÓN
+                            <br>B1 - B1T1
+                        </td>
+                        <td></td>
+                        <td rowspan="2" class="miercoles-class1"> FUNDAMENTOS DE MODELADO Y ANIMACIÓN
+                            <br>B1 - B1T1
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">18:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">19:40</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">20:50</td>
+                        <td class="lunes-class2">INGENIERÍA WEB <br>
+                            C1 - C1T1</td>
+                        <td></td>
+                        <td class="miercoles-class2">NETWORKING AND COMUNICATIONS II
+                            <br>C1 - C1T1
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tbl-colum-hora">21:20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tbl-colum-hora">22:30</td>
+                        <td rowspan="2" class="lunes-class2">INGENIERÍA WEB <br>
+                            C1 - C1T1</td>
+                        <td></td>
+                        <td rowspan="2" class="miercoles-class2">NETWORKING AND COMUNICATIONS II
+                            <br>C1 - C1T1
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tbl-colum-hora">22:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 
