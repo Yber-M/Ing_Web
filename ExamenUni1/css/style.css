@@ -1,0 +1,134 @@
+body {
+    background-color: #141a18;
+}
+
+h1 {
+    color: #00FF9E;
+    font-family: "M PLUS 1 Code", monospace;
+    text-decoration: underline;
+    text-align: center;
+    margin: -10px;
+}
+
+h2 {
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 450;
+    margin: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    color: #609F87;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 350;
+    text-align: center;
+    margin: 0px;
+}
+
+h5 {
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 340;
+    text-decoration: underline;
+    color: #00FF9E;
+    font-size: large;
+    margin: 0px;
+}
+
+div {
+    margin: 5px 0;
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+/*? Logo-Firma */
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #00FF9E;
+}
+
+/*TODO> Section INICIO */
+.active {
+    border-bottom: 5px solid;
+}
+
+.title-inicio {
+    padding-top: 5rem;
+}
+
+.datos-personales {
+    padding: 7rem 0rem 2rem 10rem;
+}
+
+.datos-personales h2 {
+    color: #00FF9E;
+}
+
+.datos-personales h2 span {
+    color: white;
+}
+
+.img-prsonal {
+    padding: 5rem;
+}
+
+img {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 50px;
+    border: 5px solid #00FF9E;
+}
+
+/*TODO> HTML Section */
+
+.table th {
+    background-color: #00FF9E;
+}
+
+.table td {
+    background-color: rgb(192, 228, 216);
+}
+
+.section-html {
+    text-align: center;
+    padding: 2rem;
+}
+
+.caja-califica {
+    width: 70%;
+    border: 2px solid #00FF9E;
+    position: relative;
+    padding: 2rem;
+    margin: 0rem 13.5rem;
+}
+
+.title-html {
+    padding: 2rem;
+}
+
+.notas {
+    margin: 0rem 2rem 2rem;
+}
+
+.section-ciclo {
+    align-items: center;
+    align-content: center;
+    margin: 0rem 5rem;
+}
+
+.form-check {
+    padding: 2rem;
+}
+
+/* ? Tabla de Notas */
+.title-registronotas {
+    margin: 2rem;
+}
+
+.registro-notas {
+    margin: 2rem 15rem 0rem 15rem;
+}

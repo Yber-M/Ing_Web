@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #141a18;
+}
+
+h1 {
+    color: #00FF9E;
+    font-family: "M PLUS 1 Code", monospace;
+    text-decoration: underline;
+    text-align: center;
+    margin: -10px;
+}
+
+h2 {
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 450;
+    margin: 20px;
+    font-size: 30px;
+}
+
+div {
+    margin: 5px 0;
+    color: white;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+.active {
+    border-bottom: 5px solid;
+}
+
+/*? Logo-Firma */
+
+#caja-todo {
+    margin: 2rem 2rem;
+    padding: 0 2rem;
+}
+
+.navbar-brand {
+    color: #00FF9E;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.banner {
+    background-color: #8a2be2;
+    height: 20rem;
+    width: 84rem;
+}
+
+.main-box {
+    background-color: #00ced1;
+    height: 29.4rem;
+}
+
+.side-box {
+    height: 12.5rem;
+    background-color: #90ee90;
+}
+
+.side-box+.side-box {
+    background-color: #add8e6;
+}
+
+.side-box:last-of-type {
+    background-color: #ffa500;
+}
+
+.bottom-box {
+    height: 15.5rem;
+}
+
+.bottom-box:nth-of-type(1) {
+    background-color: #00FF9E;
+}
+
+.bottom-box:nth-of-type(2) {
+    background-color: #ffa500;
+}
+
+.side-box {
+    width: 100%;
+}
