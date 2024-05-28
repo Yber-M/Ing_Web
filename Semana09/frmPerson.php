@@ -11,7 +11,7 @@
 
     <h2>REGISTRO DE ESTUDIANTES</h2>
 
-    <form action="" method="post">
+    <form action="./constructor/Persona.php" method="post">
 
         Nombres: <input type="text" name="nombres" id="nombres"> <br>
 
