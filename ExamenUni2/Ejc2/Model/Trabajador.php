@@ -4,7 +4,6 @@ class Trabajador
 {
     public $name = "";
     public $salario = 0.0;
-    public $salarioHorasExtras = 0.0;
     public $horaTrabajada = 0;
     public $tarifaXhora = 35;
     public $horasExtras = 0;
