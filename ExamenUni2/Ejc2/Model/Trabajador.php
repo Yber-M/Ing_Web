@@ -2,36 +2,46 @@
 
 class Trabajador
 {
-    public $horasTrabajadas;
-    public $tarifaHora = 35;
-
-    public function __construct($horas)
+    public $name = "";
+    public $salario = 0.0;
+    public $salarioHorasExtras = 0.0;
+    public $horaTrabajada = 0;
+    public $tarifaXhora = 35;
+    public $horasExtras = 0;
+    public function __construct($nombre, $horaTrabajada)
     {
-        $this->horasTrabajadas = $horas;
+        $this->name = $nombre;
+        $this->horaTrabajada = $horaTrabajada;
     }
 
-    public function calcularSalarioSinExtras()
+    public function getSalario()
     {
-        if ($this->horasTrabajadas > 40) {
-            return 40 * $this->tarifaHora;
+        return $this->salario;
+    }
+
+    public function getHoraTrabajada()
+    {
+        return $this->horaTrabajada;
+    }
+
+    public function calcularHoras()
+    {
+        if ($this->horaTrabajada > 40) {
+            $this->horasExtras = $this->horaTrabajada - 40;
+            return "<h2>Horas Trabajadas: " . $this->horaTrabajada . " <h2>" . "<h2> Horas Extras Trabajadas: " . $this->horasExtras . "</h2>";
         } else {
-            return $this->horasTrabajadas * $this->tarifaHora;
+            return "<h3> Horas Trabajadas:" . $this->horaTrabajada . "</h3>";
         }
     }
 
-    public function calcularHorasExtras()
+    public function calcularSalario()
     {
-        if ($this->horasTrabajadas > 40) {
-            return $this->horasTrabajadas - 40;
+        $this->calcularHoras();
+        if ($this->horaTrabajada > 40) {
+            return "<h1>Sueldo sin horas extras: S/" . $this->salario = $this->horaTrabajada * $this->tarifaXhora . 
+            "</h1><h1> Sueldo con horas extras: S/" . $this->salario = $this->horaTrabajada * ($this->tarifaXhora * 2) . "</h1>";
         } else {
-            return 0;
+            return "<h1>Sueldo: S/" . $this->salario = $this->horaTrabajada * $this->tarifaXhora . "</h1>";
         }
-    }
-
-    public function calcularSalarioConExtras()
-    {
-        $horasExtras = $this->calcularHorasExtras();
-        return $this->calcularSalarioSinExtras() + ($horasExtras * $this->tarifaHora * 2);
     }
 }
-?>
