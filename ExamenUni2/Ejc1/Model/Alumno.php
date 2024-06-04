@@ -47,20 +47,21 @@ class Alumno
     {
         $this->calcularProm();
         if ($this->promedio >= 13) {
-            return "<h1>Estado: Aprobado!<h1>";
+            return "<h1>Estado: Aprobado!</h1>";
         } else {
-            return "<h1>Estado: Desaprobado:(<h1>";
+            return "<h1>Estado: Desaprobado :(</h1>";
         }
     }
-    function sumarPuntosAdicionales() {
+    function sumarPuntosAdicionales()
+    {
         $this->calcularProm();
         if ($this->promedio >= 15 && $this->promedio < 19) {
             $this->puntosAdicionales = 2;
             $this->promedioTotal = $this->promedio + $this->puntosAdicionales;
-            return "<p>Puntos Adicionales: 2</p><br>" . 
-            "<p>Promedio Total: " . $this->promedioTotal . "</p>";
+            return "<p>Puntos Adicionales: 2</p><br>" .
+                "<p>Promedio Total: " . $this->promedioTotal . "</p>";
         } else {
-            return "<h1>Sin Puntos Adicionales<p>psdt: Creo que si se manejan notas de 0 al 20 seria algo ilógico que se sumen puntos si el promedio es de 19 o 20. Ya que de promedio saldría 22. Es por ello que lo estoy haciendo así. Solo se sumara puntos si el promedio es 18<p><h1>";
+            return "<h1>Sin Puntos Adicionales</h1><p>psdt: Creo que si se manejan notas de 0 al 20 seria algo ilógico que se sumen puntos si el promedio es de 19 o 20. Ya que de promedio saldría 22. Es por ello que lo estoy haciendo así. Solo se sumara puntos si el promedio es 18</p>";
         }
     }
 }

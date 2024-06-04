@@ -1,6 +1,6 @@
 <?php
 
-require_once("Model/Alumno.php");
+require_once("../Model/Alumno.php");
 
 $nombre = $_POST["name"];
 $notaUno = $_POST["primeraNota"];
