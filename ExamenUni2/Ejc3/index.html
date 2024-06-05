@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descuento por Bolilla</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular Precio Bolilla</title>
 </head>
+
 <body>
-    <form action="../index.php" method="post">
-        <h3>Monto de Compra:</h3>
-        <input type="number" name="montoCompra" id="montoCompra" required>
-        <h3>Elija el color de la bolilla:</h3>
+
+    <h1>Calcular Precio Bolilla</h1>
+    
+    <form action="view/index.php" method="post">
+        <h3>Seleccionar el tipo de bolillas :</h3>
         <select name="colorBolilla" id="colorBolilla" required>
             <option value="Blanca">Blanca</option>
             <option value="Amarilla">Amarilla</option>
@@ -19,5 +22,7 @@
         </select>
         <button type="submit" name="calcular">CALCULAR</button>
     </form>
+
 </body>
+
 </html>
